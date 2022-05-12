@@ -1,0 +1,196 @@
+body{
+    color: whitesmoke;
+    background-color: black;
+}
+
+::selection {
+    background: red;
+  }
+
+.navbar{
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 0 4px 8px -8px white;
+    -moz-box-shadow: 0 4px 8px -8px white;
+    box-shadow: 0 4px 8px -8px white;
+    
+}
+
+
+
+h2{
+    font-size: 8vh;
+    text-align: center;
+    -webkit-text-stroke: 3px grey;
+    
+}
+
+.red-text{
+    color: black;
+    -webkit-text-stroke: 3px white;
+}
+
+h3{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 650;
+    margin-bottom: 3rem;
+    -webkit-text-stroke: 2px grey;
+    font-style: italic;
+}
+
+header{
+    margin-bottom: 3rem;
+}
+
+
+#section1{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background-image: url(images/gif1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    
+}
+
+
+#person{
+    height: 36rem;
+    margin-top: 3rem;
+}
+
+#carouselExampleCaptions{
+    width: 70%;
+    margin: auto;
+}
+
+#section2{
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+#about-me{
+    text-align: left;
+}
+
+#about-me-text{
+    font-size: 1.6rem;
+}
+
+.skills-icons{
+    padding-top: 2rem;
+    width: 10vw;
+}
+
+#signature{
+    font-size: .7rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+div a{
+    padding: 0rem 1rem;
+}
+
+.navbar-brand img{
+    width: 10rem;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    
+}
+
+footer{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+    border-radius: 22px 22px 0px 0px;
+    background-color: #1F2022;
+    color: white;
+}
+
+.fa{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 770px ){
+
+
+    h2{
+        font-size: 15vh;
+        text-align: left;
+        
+    }
+
+   
+
+    #carouselExampleCaptions{
+        width: 40rem;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 769px ){
+
+    #get-in-touch{
+        display: none;
+    }
+
+    #nav-lg{
+        display: none;
+    }
+
+    div a{
+        padding: 0rem .5rem;
+    }
+
+    .navbar-brand img{
+        width: 7rem;
+    }
+
+    #person{
+        display: none;
+    }
+
+    h3{
+        font-size: 12vw;
+    }
+
+    #about-me-text{
+        font-size: 5vw;
+    }
+
+    .skills-icons{
+        padding-top: 2rem;
+        width: 30vw;
+    }
+
+    #skills-title{
+        margin-bottom: 7rem;
+    }
+
+    #section1{
+        
+        background-image: none;
+        
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1580px){
+
+    h2{
+        font-size: 13vh;
+        text-align: left;
+    }
+
+    #person{
+        height: 50vh;
+    }
+
+}
